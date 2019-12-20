@@ -1,0 +1,21 @@
+{
+    "name": "dunningcashflow",
+    "description": "Dunning cash flow is wrapper for Twikey REST APIs : Automatic payments for recurring customers",
+    "authors": "ALT-F1 SPRL",
+    "version": "0.0.0",
+    "main": "${workspaceFolder}/src/countries_utils.py",
+    "scripts": {
+        "release": "standard-version",
+        "patch": "npm run release -- --release-as patch",
+        "minor": "npm run release -- --release-as minor",
+        "push": "git push --follow-tags origin master"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://bitbucket.org/altf1be/countries-list.git"
+    },
+    "license": "SEE LICENSE IN LICENSE",
+    "dependencies": {
+        "standard-version": "^7.0.0"
+    }
+}
