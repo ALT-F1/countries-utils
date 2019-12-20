@@ -2,7 +2,7 @@
     "name": "dunningcashflow",
     "description": "Dunning cash flow is wrapper for Twikey REST APIs : Automatic payments for recurring customers",
     "authors": "ALT-F1 SPRL",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "main": "${workspaceFolder}/src/countries_utils.py",
     "scripts": {
         "release": "standard-version",
