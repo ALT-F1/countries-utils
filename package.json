@@ -12,14 +12,17 @@
         "country_list",
         "dunning_service"
     ],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "${workspaceFolder}/src/countries_utils.py",
     "scripts": {
         "release": "standard-version",
         "patch": "npm run release -- --release-as patch",
         "minor": "npm run release -- --release-as minor",
         "major": "npm run release -- --release-as major",
-        "push": "git push --follow-tags origin master"
+        "push": "git push --follow-tags origin master",
+        "build-setup.py": "python setup.py sdist bdist_wheel",
+        "push-test-setup.py": "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*",
+        "push-prod-setup.py": "python -m twine upload dist/*"
     },
     "repository": {
         "type": "git",

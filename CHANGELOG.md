@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://bitbucket.org/altf1be/countries-list/compare/v1.0.1...v1.0.2) (2019-12-21)
+
+
+### Chores
+
+* add countries-utils-* directories inside the gitignore ([ad79a20](https://bitbucket.org/altf1be/countries-list/commit/ad79a2046557c2b2a3af66d46965ae413aad1f21))
+
 ### [1.0.1](https://bitbucket.org/altf1be/countries-list/compare/v1.0.0...v1.0.1) (2019-12-21)
 
 
