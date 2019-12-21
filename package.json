@@ -1,5 +1,5 @@
 {
-    "name": "countries-utils",
+    "name": "countries_utils",
     "description": "Utils to deal with pycountry and country_list packages",
     "author": {
         "name": "Abdelkrim Boujraf",
