@@ -4,17 +4,33 @@
 # Licensed under the EUPL License, Version 1.2.
 # See LICENSE in the project root for license information.
 
+from os import path
+import json
 import setuptools
 
 with open('README.md', 'r') as fh:
     long_description = fh.read()
 
+
+here = path.abspath(path.dirname(__file__))
+root = path.dirname(here)
+package_json = path.join(here, 'package.json')
+# a workaround when installing locally from git repository with pip install -e .
+
+if not path.isfile(package_json):
+    package_json = path.join(root, 'package.json')
+
+# version number and all other params from package.json
+with open(package_json, encoding='utf-8') as f:
+    package = json.load(f)
+
 setuptools.setup(
-    name='countries-utils',
-    version='0.0.0',
-    author='Abdelkrim Boujraf',
-    author_email='abo+pypi@alt-f1.be',
-    description='Utils to deal with pycountry and country_list packages.',
+    name=package['name'],
+    version=package['version'],
+    author=package['author']['name'],
+    author_email=package['author']['email'],
+    description=package['description'],
+    license=package['license'],
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://bitbucket.org/altf1be/dunningcashflow.git',
@@ -26,7 +42,7 @@ setuptools.setup(
         # of the 'mypkg' package, also:
         'src': ['data/*.csv'],
     },
-    keywords='library pycountry country_list dunning_service',
+    keywords=package['keywords'],
 
     # Find the list of classifiers : https://pypi.org/classifiers/
     classifiers=[
