@@ -8,11 +8,19 @@ Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/co
 
 ## usage
 
-* install the package from the **test.pypi** : `pip install -i https://test.pypi.org/simple/ countries-utils`
+* install the package from the **pypi.org** : 
+    * install : `pip install countries-utils`
+    * upgrade : `pip install countries-utils --upgrade`
+
+
+* install the package from the **test.pypi.org** : 
+    * install : `pip install -i https://test.pypi.org/simple/ countries-utils`
+    * upgrade : `pip install -i https://test.pypi.org/simple/ countries-utils --upgrade`
+
 ## dependencies
 
-* pycountry <https://pypi.org/project/pycountry>
-* country_list <https://pypi.org/project/country_list>
+* pycountry : <https://pypi.org/project/pycountry>
+* country_list : <https://pypi.org/project/country_list>
 
 ## Build the package 
 
@@ -27,6 +35,7 @@ Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/co
 
 ## test the library
 
+* `cd src`
 * `pipenv run python countries_utils_unittest.py`
 
 ## Documentation
