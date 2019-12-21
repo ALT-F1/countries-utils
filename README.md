@@ -22,7 +22,7 @@ Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/co
     * Source : <https://test.pypi.org/project/countries-utils>
 
 * upload the library on **pypi.org** `python -m twine upload dist/*` 
-    * Source : <https://test.pypi.org/project/countries-utils>
+    * Source : <https://pypi.org/project/countries-utils>
 
 
 ## test the library
