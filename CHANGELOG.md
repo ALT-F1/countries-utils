@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.5](https://bitbucket.org/altf1be/countries-list/compare/v1.0.4...v1.0.5) (2019-12-21)
+
+
+### Builds
+
+* build and push setup.py on test.pypi.org or pypi.org by running ([9e63dd7](https://bitbucket.org/altf1be/countries-list/commit/9e63dd7575136c5794eddc207a85a75bf44118c3))
+
+
+### Chores
+
+* force the change of the name ([e2b3e21](https://bitbucket.org/altf1be/countries-list/commit/e2b3e2124c75a5534cba80386d8be8bcd6288d65))
+* force the change of the name ([25cf436](https://bitbucket.org/altf1be/countries-list/commit/25cf436f59756fb6debe5153ae1860524683d0ba))
+
 ### [1.0.4](https://bitbucket.org/altf1be/countries-list/compare/v1.0.3...v1.0.4) (2019-12-21)
 
 
