@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.6](https://bitbucket.org/altf1be/countries-list/compare/v1.0.5...v1.0.6) (2019-12-21)
+
+
+### Documentations
+
+* correct the url of the PROD version of the library https://pypi.org/project/countries-utils ([99e8295](https://bitbucket.org/altf1be/countries-list/commit/99e8295b7347ad30f1f14076d856625046545113))
+
+
+### Builds
+
+* build and push setup.py on test.pypi.org or pypi.org by running 'npm run build-push-test-setup.py' and 'npm run build-push-prod-setup.py' respectively ([58c77b6](https://bitbucket.org/altf1be/countries-list/commit/58c77b64f90f03a34b4eb3aa45d256204c07c9b9))
+
 ### [1.0.5](https://bitbucket.org/altf1be/countries-list/compare/v1.0.4...v1.0.5) (2019-12-21)
 
 
