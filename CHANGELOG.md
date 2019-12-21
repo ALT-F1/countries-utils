@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.4](https://bitbucket.org/altf1be/countries-list/compare/v1.0.3...v1.0.4) (2019-12-21)
+
+
+### Documentations
+
+* correct the url ([bc6739d](https://bitbucket.org/altf1be/countries-list/commit/bc6739dba4cc705481b513347a77ff4cb596dbdb))
+
 ### [1.0.3](https://bitbucket.org/altf1be/countries-list/compare/v1.0.2...v1.0.3) (2019-12-21)
 
 

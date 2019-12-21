@@ -12,7 +12,7 @@
         "country_list",
         "dunning_service"
     ],
-    "version": "1.0.3",
+    "version": "1.0.4",
     "main": "${workspaceFolder}/src/countries_utils.py",
     "scripts": {
         "release": "standard-version",
