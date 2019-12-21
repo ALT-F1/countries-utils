@@ -22,7 +22,10 @@
         "push": "git push --follow-tags origin master",
         "build-setup.py": "python setup.py sdist bdist_wheel",
         "push-test-setup.py": "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*",
-        "push-prod-setup.py": "python -m twine upload dist/*"
+        "push-prod-setup.py": "python -m twine upload dist/*",
+        "clean:setup.py": "del-cli build countries-utils-* dist",
+        "build-push-test-setup.py": "run-s clean:setup.py push-test-setup.py",
+        "build-push-prod-setup.py": "run-s clean:setup.py push-prod-setup.py"
     },
     "repository": {
         "type": "git",
@@ -31,5 +34,9 @@
     "license": "European Union Public Licence 1.2 (EUPL 1.2)",
     "dependencies": {
         "standard-version": "^7.0.0"
+    },
+    "devDependencies": {
+        "del-cli": "^3.0.0",
+        "npm-run-all": "^4.1.5"
     }
 }
