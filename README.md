@@ -24,12 +24,15 @@ Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/co
 
 ## Build the package 
 
-* `python setup.py sdist bdist_wheel`
+* build the setup.py
+    * `python setup.py sdist bdist_wheel`
 
-* upload the library on **pypi.org** `python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*` 
+* upload the library on TEST **pypi.org** 
+    * `python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*` 
     * Source : <https://test.pypi.org/project/countries-utils>
 
-* upload the library on **pypi.org** `python -m twine upload dist/*` 
+* upload the library on PROD **pypi.org** 
+    * `python -m twine upload dist/*` 
     * Source : <https://pypi.org/project/countries-utils>
 
 
