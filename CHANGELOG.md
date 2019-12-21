@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.7](https://bitbucket.org/altf1be/countries-list/compare/v1.0.6...v1.0.7) (2019-12-21)
+
+
+### Documentations
+
+* add how to install the library using pip, add a command to run the test ([a475ab3](https://bitbucket.org/altf1be/countries-list/commit/a475ab3de5826bc0ec96c7ca5e6557278c30a5db))
+* better describe the build process of the python package ([6802c8e](https://bitbucket.org/altf1be/countries-list/commit/6802c8e08d1310596717a39cfdf6ba2a16048884))
+
 ### [1.0.6](https://bitbucket.org/altf1be/countries-list/compare/v1.0.5...v1.0.6) (2019-12-21)
 
 
