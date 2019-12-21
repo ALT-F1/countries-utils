@@ -1,6 +1,6 @@
 # countries-utils
 
-Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/dunningcashflow.git>
+Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/countries-utils>
 
 * Get the list of countries stored in the field "place" in transactions stored in twikey.
 * The places are written either in FR, EN or NL.
