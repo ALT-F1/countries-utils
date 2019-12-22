@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.14](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.13...v1.0.14) (2019-12-22)
+
+
+### Chores
+
+* ignore visual studio code directories ([82df1d3](https://bitbucket.org/altf1be/countries_utils/commit/82df1d3edb0d10a7f969863941f114dcc43f0046))
+* remove .vscode directory ([630ba64](https://bitbucket.org/altf1be/countries_utils/commit/630ba6490dd88e08370123e82c1d421c5445e28f))
+* remove unnecessary settings.json ([5839710](https://bitbucket.org/altf1be/countries_utils/commit/5839710dc906f08243b18ef29e240a278ec4c3d1))
+
 ### [1.0.13](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.12...v1.0.13) (2019-12-22)
 
 

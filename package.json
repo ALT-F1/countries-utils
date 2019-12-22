@@ -13,7 +13,7 @@
         "dunning_service",
         "alt-f1.be"
     ],
-    "version": "1.0.13",
+    "version": "1.0.14",
     "main": "${workspaceFolder}/countries_utils/countries_utils.py",
     "scripts": {
         "release": "standard-version",
@@ -21,7 +21,7 @@
         "minor": "npm run release -- --release-as minor",
         "major": "npm run release -- --release-as major",
         "push": "git push --follow-tags origin master",
-        "build-setup.py": "python setup.py sdist bdist_wheel",
+        "build:setup.py": "python setup.py sdist bdist_wheel",
         "push-test-setup.py": "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*",
         "push-prod-setup.py": "python -m twine upload dist/*",
         "clean:setup.py": "del-cli build countries_utils-* dist",
