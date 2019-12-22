@@ -41,6 +41,17 @@ Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/co
 * `cd countries_list`
 * `pipenv run python countries_utils_unittest.py`
 
+* locate the package `python -c "import countries_utils as _; print(_.__path__)"`
+
+* test the package 
+    * `python -c "import countries_utils, pandas as pd, numpy as np; print(countries_utils.get_list_of_countries_in_text(
+            pd.DataFrame(np.array(['Belgium', 'Frankrijk', 'Royaume-Uni']), columns=['place']),
+            place='place',
+            languages_to_check=['en', 'fr', 'nl']
+            )
+        )"`
+    * result : `(['Belgium', 'France', 'United Kingdom'], {'United Kingdom', 'France', 'Belgium'})`
+
 ## Documentation
 
 * Packaging Python Projects <https://packaging.python.org/tutorials/packaging-projects/>
