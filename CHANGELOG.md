@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.20](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.19...v1.0.20) (2019-12-22)
+
+
+### Builds
+
+*  adapt the build to match the proposal https://stackoverflow.com/questions/59443837/installing-my-own-package-generates-a-modulenotfounderror-no-module-named-my ([bf4aa33](https://bitbucket.org/altf1be/countries_utils/commit/bf4aa338321c029156c24e1bdaf15023800fea65))
+* add new command 'npm run clean-build' ([ba96a59](https://bitbucket.org/altf1be/countries_utils/commit/ba96a59e8c72a31a2191fdd859758a04328de776))
+
 ### [1.0.19](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.18...v1.0.19) (2019-12-22)
 
 
