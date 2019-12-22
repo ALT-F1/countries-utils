@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.9](https://bitbucket.org/altf1be/countries-list/compare/v1.0.8...v1.0.9) (2019-12-22)
+
+
+### Builds
+
+* rename the project from countries-utils to countries_utils ([22fb455](https://bitbucket.org/altf1be/countries-list/commit/22fb455db2fb04aa9096f5c2eb5277d694f91aa3))
+
 ### [1.0.8](https://bitbucket.org/altf1be/countries-list/compare/v1.0.7...v1.0.8) (2019-12-21)
 
 
