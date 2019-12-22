@@ -41,7 +41,10 @@ Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/co
 * `cd countries_list`
 * `pipenv run python countries_utils_unittest.py`
 
-* locate the package `python -c "import countries_utils as _; print(_.__path__)"`
+* locate the package 
+    * `python -c "import countries_utils as _; print(_.__path__)"`
+* list functions inside the module
+    *  the package `python -c "import countries_utils as _; print(dir(_))"`
 
 * test the package 
     * `python -c "import countries_utils, pandas as pd, numpy as np; print(countries_utils.get_list_of_countries_in_text(
