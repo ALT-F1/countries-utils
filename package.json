@@ -24,6 +24,7 @@
         "build-push-prod:setup.py": "run-s clean:setup.py build:setup.py push-prod:setup.py",
         "build-push-test:setup.py": "run-s clean:setup.py build:setup.py push-test:setup.py",
         "build:setup.py": "python setup.py sdist bdist_wheel",
+        "clean-build": "run-s clean:setup.py build:setup.py",
         "clean:setup.py": "del-cli build countries_utils-* dist",
         "push-prod:setup.py": "python -m twine upload dist/*",
         "push-test:setup.py": "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
