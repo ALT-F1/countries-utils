@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.19](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.18...v1.0.19) (2019-12-22)
+
+
+### Documentations
+
+* how to locate the countries_utils library, how to test the library using a command line ([45aa2c2](https://bitbucket.org/altf1be/countries_utils/commit/45aa2c272163ff1c713bb3feeec354e677631e74))
+
 ### [1.0.18](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.17...v1.0.18) (2019-12-22)
 
 
