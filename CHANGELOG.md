@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.21](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.20...v1.0.21) (2019-12-22)
+
+
+### Features
+
+* do not package the place.csv due to an error : error: [WinError 5] Access is denied: 'build\bdist.win-amd64\wheel\countries_utils\data\places.csv' ([421bfb9](https://bitbucket.org/altf1be/countries_utils/commit/421bfb98c91f21288a630cce531bbdbd39a116c5))
+
+
+### Builds
+
+* remove *egg* directories during the 'npm run clean:setup.py' ([387869d](https://bitbucket.org/altf1be/countries_utils/commit/387869d2a9f381e26011df77d3c652cde774b8aa))
+
 ### [1.0.20](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.19...v1.0.20) (2019-12-22)
 
 
