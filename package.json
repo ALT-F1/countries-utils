@@ -10,7 +10,8 @@
         "library",
         "pycountry",
         "country_list",
-        "dunning_service"
+        "dunning_service",
+        "alt-f1.be"
     ],
     "version": "1.0.9",
     "main": "${workspaceFolder}/src/countries_utils.py",
@@ -29,7 +30,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/altf1be/countries-list.git"
+        "url": "https://bitbucket.org/altf1be/countries_utils.git"
     },
     "license": "European Union Public Licence 1.2 (EUPL 1.2)",
     "dependencies": {
