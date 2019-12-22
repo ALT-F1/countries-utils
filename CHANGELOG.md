@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.16](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.15...v1.0.16) (2019-12-22)
+
+
+### Builds
+
+* remove the where clause inside find_packages method ([29357e0](https://bitbucket.org/altf1be/countries_utils/commit/29357e0a4ade8b8c6a90d7dfc079c13bd61cece7))
+
 ### [1.0.15](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.14...v1.0.15) (2019-12-22)
 
 
