@@ -39,7 +39,7 @@ setuptools.setup(
         'pandas',
         'country-list'
     ],
-    packages=setuptools.find_packages(where=package['name']),
+    packages=setuptools.find_packages(),
     package_data={
         # If any package contains *.txt files, include them:
         # '': ['*.txt'],
