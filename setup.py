@@ -39,7 +39,7 @@ setuptools.setup(
         'pandas',
         'country-list'
     ],
-    packages=setuptools.find_packages(),
+    packages=setuptools.find_packages(include=package['name']),
     package_data={
         # If any package contains *.txt files, include them:
         # '': ['*.txt'],
@@ -69,7 +69,7 @@ setuptools.setup(
     # When your source code is in a subdirectory under the project root, e.g.
     # `countries_utils/`, it is necessary to specify the `package_dir` argument.
     package_dir={'': 'countries_utils'},  # Optional
-
+    py_modules=['countries_utils'],
     # List additional URLs that are relevant to your project as a dict.
     #
     # This field corresponds to the "Project-URL" metadata fields:
