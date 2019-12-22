@@ -34,7 +34,12 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://bitbucket.org/altf1be/countries-utils',
-    packages=setuptools.find_packages(package['name']),
+    install_requires=[
+        'pycountry',
+        'pandas',
+        'country-list'
+    ],
+    packages=setuptools.find_packages(include=package['name']),
     package_data={
         # If any package contains *.txt files, include them:
         # '': ['*.txt'],
