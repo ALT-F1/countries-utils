@@ -40,13 +40,13 @@ setuptools.setup(
         'country-list'
     ],
     packages=[package['name']],
-    package_data={
-        # If any package contains *.txt files, include them:
-        # '': ['*.txt'],
-        # And include any *.dat files found in the 'data' subdirectory
-        # of the 'mypkg' package, also:
-        'countries_utils': ['data/*.csv'],
-    },
+    # package_data={
+    #     # If any package contains *.txt files, include them:
+    #     # '': ['*.txt'],
+    #     # And include any *.dat files found in the 'data' subdirectory
+    #     # of the 'mypkg' package, also:
+    #     'countries_utils': ['data/*.csv'],
+    # },
     keywords=package['keywords'],
 
     # Find the list of classifiers : https://pypi.org/classifiers/
