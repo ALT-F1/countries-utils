@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.12](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.11...v1.0.12) (2019-12-22)
+
+
+### Builds
+
+* **fix:** add install_requires, change 'where' into 'include' ([ab9da39](https://bitbucket.org/altf1be/countries_utils/commit/ab9da390d9628a80f0d46612821ac3c050bf72f5))
+
 ### [1.0.11](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.10...v1.0.11) (2019-12-22)
 
 

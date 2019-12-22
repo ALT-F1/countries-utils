@@ -13,7 +13,7 @@
         "dunning_service",
         "alt-f1.be"
     ],
-    "version": "1.0.11",
+    "version": "1.0.12",
     "main": "${workspaceFolder}/countries_utils/countries_utils.py",
     "scripts": {
         "release": "standard-version",
