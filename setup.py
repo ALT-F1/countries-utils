@@ -40,7 +40,7 @@ setuptools.setup(
         # '': ['*.txt'],
         # And include any *.dat files found in the 'data' subdirectory
         # of the 'mypkg' package, also:
-        'src': ['data/*.csv'],
+        'countries_utils': ['data/*.csv'],
     },
     keywords=package['keywords'],
 
@@ -62,8 +62,8 @@ setuptools.setup(
     python_requires='>=3.5',
 
     # When your source code is in a subdirectory under the project root, e.g.
-    # `src/`, it is necessary to specify the `package_dir` argument.
-    package_dir={'': 'src'},  # Optional
+    # `countries_utils/`, it is necessary to specify the `package_dir` argument.
+    package_dir={'': 'countries_utils'},  # Optional
 
     # List additional URLs that are relevant to your project as a dict.
     #
