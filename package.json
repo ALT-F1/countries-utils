@@ -21,12 +21,12 @@
         "minor": "npm run release -- --release-as minor",
         "major": "npm run release -- --release-as major",
         "push": "git push --follow-tags origin master",
+        "build-push-prod:setup.py": "run-s clean:setup.py build:setup.py push-prod:setup.py",
+        "build-push-test:setup.py": "run-s clean:setup.py build:setup.py push-test:setup.py",
         "build:setup.py": "python setup.py sdist bdist_wheel",
-        "push-test:setup.py": "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*",
-        "push-prod:setup.py": "python -m twine upload dist/*",
         "clean:setup.py": "del-cli build countries_utils-* dist",
-        "build-push-test:setup.py": "run-s clean:setup.py build-setup.py push-test-setup.py",
-        "build-push-prod:setup.py": "run-s clean:setup.py build-setup.py push-prod-setup.py"
+        "push-prod:setup.py": "python -m twine upload dist/*",
+        "push-test:setup.py": "python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
     },
     "repository": {
         "type": "git",
