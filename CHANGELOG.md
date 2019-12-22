@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.17](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.16...v1.0.17) (2019-12-22)
+
+
+### Builds
+
+* **fix:** correct the name of the scripts ([d8532bf](https://bitbucket.org/altf1be/countries_utils/commit/d8532bf63cee832b1508b54f50e554c085a44d11))
+
 ### [1.0.16](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.15...v1.0.16) (2019-12-22)
 
 
