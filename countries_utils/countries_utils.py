@@ -46,6 +46,8 @@ def get_list_of_countries_in_text(df, place="place", languages_to_check=["en", "
 
     (['Belgium', 'France', 'United Kingdom'], {'France', 'Belgium', 'United Kingdom'})
     """
+    if df is None:
+        return list(), set()
 
     logging.info(f"{'='*25} {inspect.currentframe().f_code.co_name}")
     logging.info(f"len(df containing list of places) : {len(df)}")
