@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.15](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.14...v1.0.15) (2019-12-22)
+
+
+### Features
+
+* add 'get_list_of_countries_in_text' as a public method ([9d9dab1](https://bitbucket.org/altf1be/countries_utils/commit/9d9dab186d408866c2643623be3e98c6ea2e7222))
+* return an empty list and an empty set if the dataframe is None ([e645eb0](https://bitbucket.org/altf1be/countries_utils/commit/e645eb0ba65b317340dafef8d4c2ac30d588afa4))
+
+
+### Builds
+
+* rename the scripts using this template : <action>:<filename> ([e2709c0](https://bitbucket.org/altf1be/countries_utils/commit/e2709c0cc9c376c1dcb24b4429c6627cf0e7bd32))
+
 ### [1.0.14](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.13...v1.0.14) (2019-12-22)
 
 
