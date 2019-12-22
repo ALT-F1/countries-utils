@@ -38,7 +38,7 @@ Utils used by the dunning service wrapper. See <https://bitbucket.org/altf1be/co
 
 ## test the library
 
-* `cd src`
+* `cd countries_list`
 * `pipenv run python countries_utils_unittest.py`
 
 ## Documentation
