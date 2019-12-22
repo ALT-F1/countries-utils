@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.11](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.10...v1.0.11) (2019-12-22)
+
+
+### Chores
+
+* change the package directory from 'countries_list' to 'countries_utils', adapt the setup.py ([d73f5b9](https://bitbucket.org/altf1be/countries_utils/commit/d73f5b92c90ba55cb24dc05bff59b1de1c31e09d))
+
 ### [1.0.10](https://bitbucket.org/altf1be/countries_utils/compare/v1.0.9...v1.0.10) (2019-12-22)
 
 
