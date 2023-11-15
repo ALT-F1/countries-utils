@@ -35,7 +35,7 @@
     },
     "license": "European Union Public Licence 1.2 (EUPL 1.2)",
     "dependencies": {
-        "standard-version": "^7.0.0"
+        "standard-version": "^9.5.0"
     },
     "devDependencies": {
         "del-cli": "^3.0.1",
